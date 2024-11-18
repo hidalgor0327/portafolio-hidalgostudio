@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="proyecto1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Carlos</title>
+</head>
+
+<body>
+    <!-- encabezado -->
+    <header>
+        <h1>  <a href="Index.html">
+            <img src="img/logo.png" class="logo">
+        </a>
+            Carlos Hidalgo</h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="Index.html" onclick="abrirCerrarMenu()">Inicio</a></li>
+    
+                    <li><a href="#portfolio" onclick="abrirCerrarMenu()">Proyectos</a></li>
+    
+                    <li><a href="#contacto" onclick="abrirCerrarMenu()">Contacto</a></li>
+                </ul>
+            </nav>
+        <a href="PDF/hoja de vida Carlos Hidalgo.pdf" download>
+            <button class="btn-primary">Descargar CV</button>
+        </a>
+    
+        <!-- Icono de WhatsApp -->
+        <a href="https://wa.me/3105052637?text=¡Hola,%20me%20interesa%20contactarte!" target="_blank" class="whatsapp-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </header>
+
+    <!-- slider -->
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="image/img22.jpg" alt="Logo para redes sociales">
+                <div class="content">
+                    <h2>Logo</h2>
+                    <p></p>
+                </div>
+            </div>
+            
+          
+        </div>
+    
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="image/img22.jpg" alt="Logo">
+                <div class="content">Logo</div>
+            </div>
+           
+            
+           
+            
+            
+        </div>
+    </div>
+        <!-- SECCION PORTAFOLIO -->
+        <section id="portfolio">
+            <h2 class="titulo-seccion">Mis proyectos<br></h2>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+    
+                    <a href="proyecto1.html" target="_blank">
+                        <img src="img/proyecto1.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <h4>Ingeniería & Hogar</h4>
+                        <p>Diseño web & Publicitario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="proyecto2.html" target="_blank">
+                        <img src="img/proyecto2.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <h4>FairyAccesorios</h4>
+                        <p>Diseño publicitario</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="proyecto3.html" target="_blank">
+                        <img src="img/proyecto3.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <h4>LavaCarExpress</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="proyecto4.html" target="_blank">
+                        <img src="img/proyecto4.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <h4>Ilustraciones</h4>
+                        <p>Diseños para Estampados</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="proyecto5.html" target="_blank">
+                    <img src="img/proyecto5.jpg" alt="">
+                </a>
+                <div class="info">
+                    <h4>Comidas Rapidas-Las delicias de Sapa</h4>
+                    <p>Diseños digitales</p>
+                </div>
+    
+        </section>
+      <!-- sección subscripción -->
+      <section id="contacto">
+        <img src="img/autronauta4.png" class="img-subs">
+        <div class="contenido">
+            <form action="">
+                <h2 class="titulo-seccion">Contactame <br> <span class="resaltado subir"> ahora mismo</span></h2>
+                <p>¿Tienes un proyecto en mente? Estamos aquí para ayudarte a darle vida a tus ideas. Completa el
+                    formulario y nos pondremos en contacto contigo para comenzar a construir juntos. ¡Esperamos saber de
+                    ti pronto!”</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Sobre mí</h3>
+            <p>Diseñador gráfico y programador, apasionado por el diseño web y la creación de experiencias
+                digitales.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Enlaces útiles</h3>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Redes Sociales</h3>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/carlos.hidalgo.92560?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                </li>
+                <li><a href="https://www.behance.net/carloshidalgo24" target="_blank"><i class="fa-brands fa-behance"></i>Be hance</a>
+                </li>
+                <li><a href="https://www.instagram.com/karlos.hidalgo/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <!-- Icono de WhatsApp -->
+    <div class="footer-section">
+        <h3>Contacta conmigo en WhatsApp</h3>
+        <a href="https://wa.me/3105052637" target="_blank">
+            <i class="fab fa-whatsapp"></i> ¡Chatea ahora!
+        </a>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Carlos Hidalgo. Todos los derechos reservados.
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
